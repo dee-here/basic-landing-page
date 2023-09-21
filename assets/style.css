@@ -6,6 +6,7 @@
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
 }
 
 header,
@@ -15,6 +16,11 @@ footer {
     padding: 5px;
     text-align: left;
     font-size: small;
+}
+
+header {
+    position: fixed;
+    width: 100%;
 }
 
 footer {
@@ -55,7 +61,7 @@ main {
 }
 
 figure {
-    margin: 5px;
+    margin-top: 50px;
 }
 
 section {
